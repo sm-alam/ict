@@ -1,0 +1,80 @@
+A. WebSite
+Dalam internet kita mengenal beberapa istilah tentang, Web, WWW, Website, Web Page, dan homepage. lalu apa arti dari beberapa istilah tersebut, berikut penjelasannya.
+
+1. WWW ( world wide web ) kumpulan web server dari seluruh dunia yang berfungsi menyediakan data dan informasi untuk di gunakan bersama.
+
+2. WEB adalah fasilitas hypertext yang mampu menampilkan data berupa text, gambar, suara, animasi dan multimedia. untuk membaca data tersebut di perlukannlah web browser.
+
+3. WEBSITE tempat penyimpanan data dan informasi berdasarkan topik tertentu.
+
+4. WEB PAGE ( halaman web ) halaman khusus dari situs tertentu.
+
+5. HOMEPAGE adalah sampul halaman yang berisi daftar isi atau menu dari situs web.
+Html hypertex mark up language adalah bahasa program yang digunakan untuk menyusun dokumen-dokumen web .
+Dokumen html disimpan dalam bentuk file html atau HTM mengandung tak tag-tag yang memerintahkan web browser untuk mengeksekusi perintah yang dispesifikasikan.
+Html tidak membedakan penulisan huruf besar dan huruf kecil pada penulisan elemen.
+Beberapa browser tidak bisa mengenali tag tertentu dan browser tersebut akan mengabaikan tag yang tidak dikenalnya lalu menuliskan isi di dalam teks tersebut sebagai teks biasa.
+
+B. HTML
+Html hypertex mark up language adalah bahasa program yang digunakan untuk menyusun dokumen-dokumen web .
+Dokumen html disimpan dalam bentuk file html atau HTM mengandung tak tag-tag yang memerintahkan web browser untuk mengeksekusi perintah yang dispesifikasikan.
+Html tidak membedakan penulisan huruf besar dan huruf kecil pada penulisan elemen.
+Beberapa browser tidak bisa mengenali tag tertentu dan browser tersebut akan mengabaikan tag yang tidak dikenalnya lalu menuliskan isi di dalam teks tersebut sebagai teks biasa.
+
+C. Struktur HTML
+
+Berikut struktur HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>welcome to HTML</title>
+</head>
+<body>
+    Contoh documen html
+</body>
+</html>
+
+1. Elemen HTML
+Setiap dokumen html harus diawali dengan tag buka dan penutup.
+
+Sintak:
+
+<html> ... </html>
+
+a. Tag adalah teks khusus berupa dua karakter "<"dan ">"yang secara umum ditulis berpasangan antara tag pembuka dan penutup ( ditambah karakter "/" setelah karakter ">".
+b. Elemen html terdiri dari tiga bagian yaitu pembuka isi dan penutup.
+
+Penulisan  program yang baik adalah secara terstruktur ditulis secara berpasangan pada suatu elemen html tidak boleh saling tumpang tindih dengan tag - tag lainnya.
+
+c. Atribut digunakan untuk mendefinisikan properti dari suatu elemen html yang terdiri atas nama dan nilai.
+
+2. Elemen head
+
+Sintak:
+
+<heade> ... </head>
+
+Bagian header dari dokumen html diapit oleh tag head.
+
+Di dalam bagian ini juga diletakkan teks title yang menampilkan judul dari halaman pada Browser.
+
+sintak:
+
+<title> ... </title>
+
+Header juga memuat tak Meta, gunakan untuk menentukan informasi tertentu mengenai dokumen HTML dapat digunakan untuk menentukan outer name keyword dan lainnya pada teks Meta.
+
+3. Element body
+
+sintak:
+
+<body> ... </body>
+Elemen ini digunakan untuk menampilkan isi dokumen html yang akan ditampilkan pada website.
+
+D. Editor HTML 
+untuk membuat dokumen html Anda bisa menggunakan semua program teks editor biasa mulai dari notepad hingga Microsoft Word atau menggunakan editor html berjenis WYSIWYG.
+
+Satu yang perlu diperhatikan dalam membuat sebuah website yang menggunakan program teks editor Visual Studio atau Notepad++ jangan lupa ketika menyimpan untuk menggunakan ekstensi html atau HTM
+
+

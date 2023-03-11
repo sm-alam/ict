@@ -1,0 +1,204 @@
+HTML bagian 2
+
+A. Format teks
+1. Header
+Element header merupakan huruf-huruf yang berukuran tertentu, digunakan untuk menuliskan judul atau sub judul. Ada enam tingkatan header mulai dari H1 sampai h6. H1 header paling besar dan h6 header paling kecil.
+
+Syntak :
+<h1> ... </h1>
+
+2. Paragraf
+Elemen paragraf digunakan untuk menandai sekumpulan teks sebagai suatu paragraf.
+
+Syntak :
+<p> ... </p>
+
+Adapun atribut yang dapat ditambahkan pada elemen paragraf adalah:
+
+================================================
+= Atribut = Argumen = Keterangan               =
+================================================
+= Align   = rigth   = perataan paragraf kanan  =
+=         = Center  = perataan paragraf tengah =
+=         = left    = perataan paragraf kiri   =
+=         = Justify = perataan Kanan kiri      =
+================================================
+    
+
+3. Block quote
+Elemen blockquote digunakan untuk menuliskan satu teks yang menjorok ke dalam dan berbeda dalam satu paragraf.
+
+Syntak :
+<Blockquote> ... </Blockquote>
+
+4. Physical style
+Physical style adalah jenis format yang diberikan pada teks tanpa tergantung pada jenis dari elemen dasar teks tersebut . Elemen-elemen ini sudah sering kita pakai dalam program pengolah kata misalnya Microsoft Word seperti menebalkan memiringkan atau menggaris bawahi teks.
+
+Adapun elemen-elemen fisik yang dapat diterapkan pada dokumen html adalah: 
+
+Syntak :
+
+Menebalkan teks:
+
+<b> ... </b>
+
+Memiringkan teks :
+
+<i> ... </i>
+
+Menggarisbawahi teks :
+
+<u> ... </u>
+
+Memberikan coretan pada teks :
+
+<s> ... </s>
+
+Membesarkan teks :
+
+<big> ... </big>
+
+Mengecilkan teks :
+
+<small> ... </small>
+
+Membuat subscript :
+
+<sub> ... </sub
+
+Membuat superscript :
+
+<sup> ... </sup>
+
+5. Pre Format teks
+Pada elemen paragraf penekanan tombol enter tab spasi tidak memberikan pengaruh pada web yang kita buat. Bagaimana jika misalnya kita ingin menambahkan spasi dan enter pada teks dalam web kita. Masalah ini dapat dipecahkan dengan menggunakan tag <pre> . Sehingga teks yang berada di dalam teks mengikuti sesuai dengan pengetikan yang kita lakukan.
+
+Syntak :
+
+<pre> ... </pre>
+
+Bisa untuk menampilkan tulisan sesuai aslinya, seperti rumus, posisi teks, gambar dari karakter huruf.
+
+6. Karakter spesial
+Karakter spesial merupakan karakter yang  penggunaannya dalam html harus menggunakan kode-kode tertentu. Karakter-karakter ini merupakan karakter khusus yang digunakan untuk menandai suatu tag HTML.Diperlukan suatu kode khusus untuk menampilkan karakter-karakter ini yang dikenal dengan istilah entity dua macam entity di dalam html, yaitu yang pertama karakter entity yang kedua numerik entity.
+
+a. Karakter entity yaitu menggunakan suatu nama tertentu sebagai ganti karakter spesial dan diawali dengan (&) serta diakhiri dengan (;)
+
+Contoh:
+
+&lt; mewakili karakter <
+&gt; mewakili karakter >
+&amp; mewakili karakter &
+&copy; mewakili karakter ©
+&reg; mewakili karakter ®
+&trade; mewakili karakter ™
+
+b. Numerik NTT yaitu menggunakan suatu kode angka untuk mewakili suatu karakter spesial dan diawali dengan &# (dan kress) diakhiri dengan (;)
+
+Contoh:
+
+&#177; mewakili karakter ±
+&#187; mewakili karakter >>
+&#197; mewakili karakter Å
+
+7. Font
+Elemen font digunakan untuk mengatur ukuran teks . Elemen font menyediakan atribut size dengan ukuran dari 1 sampai 7. Semakin besar angka maka semakin besar ukuran teks tersebut.
+
+Syntak :
+
+<font size=x> ... </font>
+
+"x" di isi dengan nilai 1 sampai 7.
+
+8. Mengubah warna teks
+Untuk mengubah warna suatu teks elemen font menyediakan atribut color. Pendefinisian warna dapat dilakukan dengan dua cara yaitu, nama warna atau menggunakan kode hexadesimal.
+
+Syntak :
+
+<font color=" isi dengan warna atau hexadecimal"> ... </font>
+
+9. Mengganti baris dan garis horizontal.
+a. Elemen break rule digunakan untuk menuliskan teks pada garis berikutnya titik dengan adanya elemen ini maka tidak lagi memerlukan elemen free untuk menulis pada baris baru. Tulisan teks <BR> tidak memerlukan penutup.
+
+Syntak :
+
+<br> ... </br>
+
+b. Elemen horizontal rule
+Digunakan untuk membuat garis horizontal. ada beberapa atribut yang dapat digunakan untuk mengubah tampilan garis seperti untuk mengubah panjang ketebalan warna dan efek bayangan. 
+
+Syntak :
+
+<hr> ... </hr>
+
+
+berikut atribut yang bisa ditambahkan:
+    ===================================================
+    = Atribut = Argumen = Keterangan                  =
+    ===================================================
+    = Align   = rigth   = digunakan untuk melakukan   =
+    =         = Center  = perataan pada garis yang    =
+    =         = left    = di buat                     =
+    =         = Justify =                             =
+    ===================================================
+    = noshade = noshade    = memunculkan efek tanpa   =
+    =         =            =  bayang - bayang 3D      =
+    ===================================================
+    = size    = piksel % = Digunakan untuk menentukan =
+    =                    = ukuran ketebalan garis     =
+    ===================================================
+    = width   = piksel % = Digunakan untuk menentukan =
+    =                    = ukuran panjang garis       =
+    ===================================================
+    = Color   = nama warna = Digunakan untuk memberi  =
+    =         = /kode rgb. = warna garis              =
+    ===================================================
+
+
+10. Komentar
+Komentar digunakan untuk memberikan suatu penjelasan atau keterangan , html tidak akan menampilkan teks ke dalam Browser.
+
+
+Syntak :
+
+<!-- .... -->
+
+
+B. list 
+Merupakan salah satu cara yang efektif dan mudah untuk penyampaian informasi html menyediakan beberapa jenis list yaitu :
+1. Ordered list
+Ordered list atau number glaze adalah suatu daftar di mana item-item yang ada di dalam daftar tersebut memiliki nomor secara berurutan.
+Order etnis memiliki atribut yang dapat digunakan untuk mengganti nomor menjadi huruf atau bilangan Romawi. dan dapat juga mengatur nomor awal untuk daftar yang akan dibuat.
+
+2. Unordered list
+An ordered list atau bulleted adalah suatu daftar di mana urutan tidak diutamakan jadi item-item dalam daftar bisa muncul dalam sembarangan urutan.
+
+Sedangkan untuk menyatagan list item menggunakan tag 
+
+3. list definisi
+List definisi digunakan untuk mendefinisikan atau menjelaskan suatu istilah disebut juga daftar istilah. Terdapat tiga teks yang digunakan untuk menyusun Suatu daftar istilah :
+DL untuk menyatagan list definisi
+DP istilah yang didefinisikan
+Dd definisi dari istilah tersebut
+
+c. Tabel
+Tabel digunakan untuk membuat tabel dalam dokumen html bagian pokok dari tabel adalah sel yang didefinisikan dengan tag TD.
+
+Adapun elemen tabel :
+TR baris tabel yaitu baris pada tabel
+TD Tabel data data tabel merupakan tempat menyimpan informasi atau data dalam tabel Tabel data dinyatakan dengan tag TD.
+TH table header yaitu judul tabel tabel header yang terletag di bagian atas adalah judul kolom sedang tabel header yang terletag di bagian kiri adalah judul baris yang dinyatagan dengan tag TH.
+Caption judul tabel yang terletag di luar tabel.
+
+Adapun atribut yang dapat ditambahkan pada tabel adalah :
+Border nilai angka digunakan untuk menentukan tebal garis pada tepi tabel
+Sel spacing nilai angka digunakan untuk menentukan jumlah spasi diantara tiap-tiap sel
+Cell padding nilai angka digunakan untuk menentukan jumlah spasi antara data dalam suatu sel .
+width nilai pixel digunakan untuk mengatur lebar tabel dapat menggunakan ukuran pixel atau persen.
+Align nilai left, center, right digunakan untuk perataan tabel secara horizontal.
+valign middle bottom baseline digunakan untuk perataan tabel secara horizontal.
+bgcolor nilai bgcolor warna latar atau pada sel.
+rowspan nilai angka Menggabungkan beberapa baris tabel.
+colspan nilai angka Menggabungkan beberapa kolom tabel.
+
+

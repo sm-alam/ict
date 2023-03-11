@@ -1,0 +1,66 @@
+Bagian tiga
+
+A. Form
+form digunakan untuk membuat halaman web menjadi lebih interaktif karena akan mendapatkan umpan balik dari pengunjung situs web. Form dapat digunakan untuk membuat buku tamu membuat daftar online komentar dan lain-lain.
+Adapun untuk membuat form adalah dengan menggunakan elemen form elemen form berfungsi untuk mendefinisikan form interaktif.
+Adapun atribut yang ditambahkan pada tag form adalah : 
+Atribut method untuk menentukan metode form melakukan proses pengiriman get/post.
+Action berisikan aksi terhadap form yang dikirim dan akan memproses data dari form.
+1. Elemen input
+Elemen input berfungsi untuk mendefinisikan input yang akan dimasukkan oleh user. Elemen ini tidak mempunyai tag penutup dan harus berada di dalam elemen form.
+Elemen ini mempunyai atribut:
+name mendefinisikan nama dari input kontrol form.
+size mendefinisikan ukuran teks pada input control.
+type mendefinisikan bentuk-bentuk kontrol.
+value mendefinisikan nilai awal reset submit
+checked mendefinisikan pilihan terpilih pada tipe radio atau check box.
+Berikut ini macam-macam komponen input:
+a. button
+Digunakan untuk membuat tombol yang akan mengeksekusi atau menjalankan perintah yang telah ditentukan
+b. checkbox
+Digunakan agar user bisa memilih beberapa option.
+c. radio
+Setiap radio button control harus memiliki nama yang sama sehingga user hanya bisa memilih satu option saja
+d. text
+Digunakan untuk membuat single line teks control. Atribut size digunakan untuk menentukan jumlah karakter yang bisa ditampilkan.
+
+2. Elemen select berfungsi untuk mendefinisikan opsi pilihan pada form control. elemen ini harus berada di dalam elemen form.
+Elemen ini mempunyai atribut :
+name mendefinisikan nama dari input control form.
+size definisikan ukuran teks pada input kontrol.
+type mendefinisikan bentuk-bentuk kontrol.
+
+Elemen option untuk mendefinisikan opsi pilihan pada menu select elemen ini harus berada di dalam elemen form.
+Elemen ini mempunyai atribut :
+select mendefinisikanisikan opsi yang terpilih 
+option berisikan nilai pada elemen option.
+
+3. Elemen teks area
+Element text area berfungsi sebagai input kontrol form untuk memasukkan teks lebih dari satu baris. elemen ini harus berada di dalam elemen form. Element ini mempunyai atribut: 
+name mendefinisikan nama input kontrol form elemen teks area
+cols mendefinisikan jumlah kolom teks area yang terlihat
+rows mendefinisikan jumlah baris teks area yang terlihat
+
+B.  frame
+1. Frame set
+Element frame set berfungsi untuk membagi suatu halaman web menjadi beberapa bagian. bagian-bagian tersebut dapat digunakan untuk berbagai macam kebutuhan . Elemen Frame set diletakkan diantara elemen Head dan body elemen ini mempunyai atribut:
+cols membagi jendela berdasarkan kolom jumlah tersebut dapat berupa pixel atau relatif.
+rows membagi jendela berdasarkan baris jumlah tersebut dapat berupa pixel nilai atau nilai relatif
+border untuk menampilkan ketebalan border frame.
+bordercolor untuk menampilkan warna pada frame.
+Frame border untuk menampilkan pembatas frame dapat dihilangkan dengan memberikan nilai no.
+Frame spacing antar elemen.
+2. Frame
+Frame berfungsi untuk mendefinisikan frame yang terdapat dalam frame set elemen ini tidak mempunyai tag penutup.
+Elemen ini mempunyai atribut:
+name menentukan nama frame
+Margin height menentukan margin frame bagian atas dan bawah
+Margin width menentukan margin frame bagian atas dan bawah
+Border color untuk menampilkan warna pada frame
+Frame border untuk menampilkan pembatas frame dapat dihilangkan dengan memberikan nilai no
+No resize mencegah user untuk mengubah ukuran dari frame
+Scrolling menentukan Scroll bar pada frame yes untuk menampilkan no untuk tidak menampilkan.
+SRC berisi url yang menjadi sumber dari frame.
+3. No frame
+Untuk mendefinisikan isi yang akan ditampilkan apabila suatu frame tidak dapat diakses.
+Untuk membuat halaman web yang memiliki frame biasanya akan dibuat satu halaman web utama yang memiliki frame ditambah dengan file-file html lainnya yang digunakan sebagai sumber untuk frame tersebut.
