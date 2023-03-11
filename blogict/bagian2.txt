@@ -1,4 +1,4 @@
-HTML bagian 2
+HTML bagian kedua
 
 A. Format teks
 1. Header
